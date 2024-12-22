@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Ebene_2" data-name="Ebene 2" viewBox="0 0 65.9 65.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: .6px;
+      }
+    </style>
+  </defs>
+  <g id="Ebene_1-2" data-name="Ebene 1">
+    <g>
+      <ellipse class="cls-1" cx="32.99" cy="32.89" rx="8.48" ry="32.56"></ellipse>
+      <ellipse class="cls-1" cx="32.99" cy="32.86" rx="23.57" ry="32.56"></ellipse>
+      <ellipse class="cls-1" cx="32.95" cy="33.04" rx="32.65" ry="32.56"></ellipse>
+      <line class="cls-1" x1="1.86" y1="22.65" x2="63.94" y2="22.65"></line>
+      <line class="cls-1" x1="2.13" y1="44.24" x2="63.76" y2="44.24"></line>
+    </g>
+  </g>
+</svg>

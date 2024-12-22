@@ -9,6 +9,8 @@ import ReservationSection from '../pages/content-sections/ReservationSection'
 import Earth from '../pages/content-sections/Earth'
 import WhyUs from '../pages/content-sections/WhyUs'
 import Report from '../pages/content-sections/Report'
+import ImageGallery from '../pages/content-sections/ImageGallery'
+import Footer from './Footer'
 
 
 const Main = () => {
@@ -16,13 +18,15 @@ const Main = () => {
 
     <div className='w-full h-full relative'>
       <HeroSection />
+      <ImageSlider />
+      <Earth />
       <DiningIntro />
       {/* <ParallaxImages /> */}
-      <Earth />
-      <WhyUs />
+      
       <Report />
-      <ImageSlider />
-      <ReservationSection />
+      <WhyUs />
+      <ImageGallery/>
+      {/* <ReservationSection /> */}
     </div>
 
   )

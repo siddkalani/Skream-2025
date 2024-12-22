@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { sidebarActions } from '../../store/slices/siderbarSlice';
 import { Link } from 'react-router-dom';
+import logo from '../../../public/images/logo.svg'
+
 
 const Header = () => {
   const dispatch = useDispatch()
@@ -49,15 +51,21 @@ const Header = () => {
       <div className='flex items-center bg-transparent justify-between w-full p-nav'>
         <div className={`btn h-[2em] hover:shadow-md lg:h-[var(--btn-height-small)] ${scrollState.isDarkMode ? 'bg-[var(--color-butterflygreen-900)] text-white' : ''}`}>
         </div>
-        <div className='logo'>
-          <div className={`inline-block text-4xl h-[1.25rem] transition-all has-sticky-header:!text-primary ${activeItem === 'Industries' || scrollState.isDarkMode ? 'text-red-600' : 'text-white'}`}>
-            𝐀&𝐊
+        <div className='logo font-lakeshore'>
+          <div className={`inline-block text-4xl h-[3rem] transition-all has-sticky-header:!text-primary ${activeItem === 'Industries' || scrollState.isDarkMode ? 'text-red-600' : 'text-white'}`}>
+          <img
+      src={logo}
+      alt="Logo"
+      className={`h-full w-full transition-all ${
+        scrollState.isDarkMode ? 'filter invert' : ''
+      }`}
+    />
           </div>
         </div>
         <div>
           <nav className='flex items-center gap-nav'>
             <ul className={`lg:flex hidden ${activeItem === 'Industries' ? 'text-black' : ''} ${scrollState.isDarkMode ? 'text-[var(--color-dark)]' : 'text-[var(--color-white)]'}`}>
-              {['Home', 'Solutions', 'Industries', 'About Us'].map((item, index) => (
+              {['Events', 'Rules', 'Sponsers', 'Contact Us'].map((item, index) => (
                 <li key={index} className='nav-a'>
                   <Link
                     to={`/${item.toLowerCase()}`} //params se karo

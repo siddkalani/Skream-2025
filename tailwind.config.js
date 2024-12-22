@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily: {
         'abc-whyte': ['ABC Whyte', 'sans-serif'],
-        'kaftan' : ['Kaftan Serif', 'serif']
+        'kaftan' : ['Kaftan Serif', 'serif'],
+        'lakeshore' : ['Lakeshore', 'sans-serif'],
       }
     },
   },

@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { IoStarSharp } from "react-icons/io5";
+import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { Parallax } from 'react-parallax';
 
 const Footer = () => {
@@ -26,16 +27,16 @@ const Footer = () => {
             <div className='footer-nav flex'>
               <div className="border-left"></div>
               <div className="flex flex-col min-w-[10em]">
-                <div className='column-title'><span className='eyebrow small'>stay</span></div>
+                <div className='column-title'><span className='eyebrow small'>INDOOR SPORTS</span></div>
                 <ul className='short-links-list'>
-                  {["Garden villa", "Pool Studio", "Pool villa", "Master Pool Villa"].map((item, index) => (
+                  {["Badminton", "Football", "Cricket", "Lawn Tennis"].map((item, index) => (
                     <li className='short-link-item' key={index}><a className='short-link' href="#"><span>{item}</span></a></li>
                   ))}
                 </ul>
               </div>
               <div className='flex flex-col'>
                 <div className='short-links-column'>
-                  <div className='column-title'><span className='eyebrow small'>discover</span></div>
+                  <div className='column-title'><span className='eyebrow small'>OUTDOOR SPORTS</span></div>
                   <ul className='short-links-list'>
                     {["Secret Waterfall", "Dolphins of Lovina", "Diving and Snorkeling"].map((item, index) => (
                       <li className='short-link-item' key={index}><a className='short-link' href="#"><span>{item}</span></a></li>
@@ -63,15 +64,25 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-          </div> 
+          </div>
           {/* footer-end */}
           <div className='relative flex w-full justify-between'>
             <div className="border-custom"></div>
 
+            <div className="footer-end flex justify-around">
+              
+              <span className="cursor-pointer text-sm flex items-center justify-center">
+                <span className="text-sm mr-[2px] align-center">©</span>
+                <span className="items-center mr-1">CREOAVATE 2025</span>
+              </span>
+            </div>
+
+            {/* Ratings Section */}
             <div className="footer-end flex justify-around items-center">
-              <span className='eyebrow small flex items-center'>ratings</span>
-              <div className='star-container'>
-                <picture className='star-picture'>
+            <div className="border-left"></div>
+              <span className='eyebrow small flex items-center'>Ratings</span>
+              <div className='star-container flex'>
+                <picture className='star-picture flex items-center gap-1'>
                   {Array(6).fill().map((_, index) => (
                     <IoStarSharp key={index} color='orange' />
                   ))}
@@ -79,29 +90,24 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="footer-end flex justify-around">
+            {/* Social Media Links */}
+            <div className="footer-end flex justify-around items-center">
               <div className="border-left"></div>
-              <span className='eyebrow small flex items-center'>ratings</span>
-              <div className='star-container'>
-                <picture className='star-picture'>
-                  {Array(6).fill().map((_, index) => (
-                    <IoStarSharp key={index} color='orange' />
-                  ))}
-                </picture>
+              <div className='flex items-center gap-4'>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#7e6249]">
+                  <FaInstagram size={30} />
+                </a>
+                <a href="https://wa.me/<YOUR_WHATSAPP_NUMBER>" target="_blank" rel="noopener noreferrer" className="hover:text-[#7e6249]">
+                  <FaWhatsapp size={30} />
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#7e6249]">
+                  <FaLinkedin size={30} />
+                </a>
               </div>
             </div>
 
-            <div className="footer-end flex justify-around">
-              <div className="border-left"></div>
-              <span className='eyebrow small flex items-center'>ratings</span>
-              <div className='star-container'>
-                <picture className='star-picture'>
-                  {Array(6).fill().map((_, index) => (
-                    <IoStarSharp key={index} color='orange' />
-                  ))}
-                </picture>
-              </div>
-            </div>
+
+           
           </div>
         </div>
       </footer>
@@ -131,4 +137,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

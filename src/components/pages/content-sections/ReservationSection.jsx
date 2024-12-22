@@ -4,9 +4,9 @@ import { Parallax } from 'react-parallax';
 const ReservationSection = () => {
     return (
         <>
-            <section className='w-full h-full pt-[var(--section-padding)]'>
+            <section className='w-full h-full -[var(--section-padding)]'>
                 <div className='flex-custom-center h-full w-full relative'>
-                    <div className='hero-image flex-custom-center relative h-[100vh] w-[100vw]'>
+                    <div className='hero-image flex-custom-center relative h-[90vh] w-[100vw]'>
                         <video
                             className="absolute inset-0 z-0 w-full h-full object-cover"
                             src="/videos/heroVideo.mp4"
