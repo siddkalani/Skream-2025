@@ -42,8 +42,8 @@ const Header = () => {
   return (
     <header
       className={`
-        ${scrollState.isScrolling ? 'z-[100] fixed w-full p-mobile' : 'z-[100] fixed w-full p-mobile'}
-        ${scrollState.isScrolling && !scrollState.isDarkMode ? '' : ''}
+        ${scrollState.isScrolling ? 'z-[100] fixed w-full p-mobile' : 'z-[100] fixed w-full lg:p-h p-mobile'}
+        ${scrollState.isScrolling && !scrollState.isDarkMode ? 'backdrop-blur-md bg-opacity-70' : ''}
         ${scrollState.isDarkMode ? 'backdrop-blur-lg bg-opacity-75 bg-white' : ''}
         ${activeItem === 'Industries' || scrollState.isDarkMode ? 'backdrop-blur-lg bg-opacity-85  text-black' : ''}
         ${activeItem === 'Industries' ? 'backdrop-blur-lg bg-opacity-85  text-black' : ''}
@@ -92,7 +92,7 @@ const Header = () => {
           </nav>
         </div>
       </div>
-      {/* <div className={`${scrollState.isDarkMode ? 'bg-[var(--color-border)] border-bottom' : 'border-bottom'}`}></div> */}
+      <div className={`${scrollState.isDarkMode ? 'bg-[var(--color-border)] border-bottom' : 'border-bottom'}`}></div>
     </header >
   )
 }

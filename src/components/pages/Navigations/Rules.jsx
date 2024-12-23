@@ -64,14 +64,17 @@ const Rules = () => {
               Official Tournament Rules
             </span>
             <div className='flex items-center gap-4'>
-            <div className='text-center'>
-                <div className='ornament mt-1'>
+            <div className='text-center mt-6'>
+                <div className='ornament'>
                   <img src="/videos/icons8-goal.gif" alt="Ornament" />
                 </div>
               </div>
-            <h1 className="text-5xl text-[#e88024] mt-3 leading">
+            <p className="md:flex hidden text-[3rem] leading-[1rem] text-[#e88024] mt- font-bold font-lakeshore leading">
             Follow rules for a fair, disciplined, and safe tournament.
-            </h1>
+            </p>
+            <p className="md:hidden flex w-full text-[1.8rem] leading-[1rem] text-[#e88024] mt-3 font-bold font-lakeshore leading">
+            Follow rules for a fair tournament.
+            </p>
             </div>
           </div>
 
@@ -83,9 +86,9 @@ const Rules = () => {
             >
               <div className="flex items-center gap-6">
                 <span className="text-gray-500 text-2xl lg:text-3xl font-bold">{rule.id}</span>
-                <h3 className="text-lg  lg:text-2xl font-semibold text-gray-800 font-lakeshore">
+                <p className="font-semibold text-gray-800 text-[1.6rem]">
                   {rule.title}
-                </h3>
+                </p>
               </div>
               <p className="text-base lg:text-lg text-gray-700 mt-3 leading-relaxed">
                 {rule.content}

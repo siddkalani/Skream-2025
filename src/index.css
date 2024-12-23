@@ -715,7 +715,7 @@
     .carousel-image {
         flex-shrink: 0;
         width: 100%;
-        /* height: 30rem; */
+        height: 35rem;
         object-fit: cover;
     }
 
@@ -943,3 +943,12 @@ figure {
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Lakeshore';
+    src: url('/public/fonts/Lakeshore/lakeshore-regular.ttf') format('truetype'); /* Use opentype instead of otf */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  

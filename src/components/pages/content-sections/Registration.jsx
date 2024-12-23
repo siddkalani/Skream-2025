@@ -34,18 +34,18 @@ const Registration = () => {
                         <div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
 
                         {/* Content */}
-                        <div className='hero-image relative z-20 flex items-center justify-center md:h-[55vh] h-[80vh]'>
+                        <div className='hero-image relative z-20 flex items-center justify-center md:h-[60vh] h-[80vh]'>
                             <div className='w-full flex flex-col items-center justify-center h-full p-4 md:p-5 md:ml-10'>
                                 {/* Registration and Payment Section */}
                                 <div className="flex flex-wrap md:flex-nowrap justify-center items-start gap-8 w-full text-white">
                                     {/* Registration Section */}
                                     <div className="flex-1 w-full md:w-[45%] text-center md:text-left">
-                                        <h3 className='hero-h1 text-[#e88024] mt-[-0.175em] mb-[-0.1em] font-cormo'>
+                                        <h3 className='text-[3rem] md:text-[5rem] text-[#e88024] font-lakeshore'>
                                             REGISTRATION GUIDELINES
                                         </h3>
-                                        <p className='text-[1.3rem] text-[var(--color-white)] font-karla mt-4 font-medium'>
+                                        <p className='text-[1rem] md:text-[1.3rem] text-[var(--color-white)] font-karla mt-6 font-medium'>
                                             Submit the following documents:
-                                            <ul className="list-disc list-inside mt-2">
+                                            <ul className="list-disc list-inside">
                                                 <li>Team List</li>
                                                 <li>Bonafide Certificate</li>
                                                 <li>Government ID</li>
@@ -58,10 +58,10 @@ const Registration = () => {
 
                                     {/* Payment Section */}
                                     <div className="flex-1 w-full md:w-[45%] text-center md:text-left">
-                                        <h3 className='hero-h1 mt-[-0.175em] text-[#e88024] mb-[-0.1em] font-cormo'>
+                                        <h3 className='text-[3rem] md:text-[5rem] text-[#e88024] font-lakeshore'>
                                             PAYMENT PROCEDURE
                                         </h3>
-                                        <p className='text-[1.3rem] text-[var(--color-white)] font-karla mt-4 font-medium'>
+                                        <p className='text-[1rem] md:text-[1.3rem] text-[var(--color-white)] font-karla mt-6 font-medium'>
                                             Pay offline at the college or online via Credit/Debit Cards, Net Banking, or PayTM.
                                             <br />
                                             For PayTM, use number: <u>7506945555</u>.

@@ -27,7 +27,7 @@ const Events = () => {
                             data-aos-duration="500"
                             data-aos-delay="200"
                         >
-                            <h2 className='text-3 text-white'>Events</h2>
+                            <h2 className='text-white'>Events</h2>
                         </div>
                         <div
                             className=''
