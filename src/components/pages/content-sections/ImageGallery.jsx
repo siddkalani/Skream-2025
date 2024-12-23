@@ -22,11 +22,11 @@ const ImageGallery = ({ className = "" }) => {
                         </div> */}
                         <div className='text-center'>
                             <div className='col-row-title'>
-                                <h1 className='font-cormo'>Sponsors</h1>
+                                <h1 className='font-cormo text-[#e88024]'>Sponsors</h1>
                             </div>
                         </div>
                         <div className='text-center max-w-[35em] mt-[-1em]'>
-                            <p className='font-cormo italic text-[1.8rem] font-medium'>Explore our gallery of treasures—each piece a testament to artistry and timeless elegance.
+                            <p className='font-cormo italic text-[1.8rem] font-medium text-gray-700'>Explore our gallery of treasures—each piece a testament to artistry and timeless elegance.
                             </p>
                         </div>
                     </div>

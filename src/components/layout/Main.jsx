@@ -12,7 +12,8 @@ import Report from '../pages/content-sections/Report'
 import ImageGallery from '../pages/content-sections/ImageGallery'
 import Footer from './Footer'
 import Rules from '../pages/Navigations/Rules'
-import Newsletter from '../pages/content-sections/Newsletter'
+import Newsletter from '../pages/content-sections/Registration'
+import Registration from '../pages/content-sections/Registration'
 
 
 const Main = () => {
@@ -28,7 +29,7 @@ const Main = () => {
       <Report />
       {/* <WhyUs /> */}
       <ImageGallery />
-      <Newsletter />
+      <Registration />
       {/* <ReservationSection /> */}
     </div>
 

@@ -51,7 +51,7 @@ const Header = () => {
       <div className='flex items-center bg-transparent justify-between w-full p-nav'>
         <div className={`btn h-[2em] hover:shadow-md lg:h-[var(--btn-height-small)] ${scrollState.isDarkMode ? 'bg-[var(--color-butterflygreen-900)] text-white' : ''}`}>
         </div>
-        <div className='logo font-lakeshore'>
+        <div className='logo font-lakeshore cursor-pointer'>
           <div className={`inline-block text-4xl h-[3rem] transition-all has-sticky-header:!text-primary ${activeItem === 'Industries' || scrollState.isDarkMode ? 'text-red-600' : 'text-white'}`}>
           <img
       src={logo}
@@ -64,23 +64,25 @@ const Header = () => {
         </div>
         <div>
           <nav className='flex items-center gap-nav'>
-            <ul className={`lg:flex hidden ${activeItem === 'Industries' ? 'text-black' : ''} ${scrollState.isDarkMode ? 'text-[var(--color-dark)]' : 'text-[var(--color-white)]'}`}>
-              {['Home', 'Rules', 'Events', 'Contact Us'].map((item, index) => (
-                <li key={index} className='nav-a'>
-                  <Link
-                    to={`/${item.toLowerCase()}`} //params se karo
-                    className='flex-custom-center relative overflow-hidden group uppercase'
-                    onClick={() => handleActiveState(item)}
-                  >
-                    <span className='nav-span inline-block transition-all duration-300 ease-in-out transform group-hover:scale-105 group-hover:text-[var(--color-accent)]'>
-                      <span className={`text-5 ${activeItem === item ? 'underline' : scrollState.isDarkMode || activeItem === 'Industries' ? 'dark-underline' : 'hover-underline'}`}>
-                        {item}
-                      </span>
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+             <ul className={`lg:flex hidden ${scrollState.isDarkMode ? 'text-[var(--color-dark)]' : 'text-[var(--color-white)]'}`}>
+            {[
+              { text: 'Events', href: '#featured' },
+              { text: 'Rules', href: '#category' },
+              { text: 'Register', href: '#about-us' },
+              { text: 'Contact', href: '#gallery' },
+            ].map((item, index) => (
+              <li key={index} className='nav-a'>
+                <a href={item.href} className='flex-custom-center relative overflow-hidden group font-karla'>
+                  <span className='text-[1.02rem] nav-span inline-block transition-all duration-300 ease-in-out transform group-hover:-translate-y-full group-hover:opacity-0'>
+                    {item.text}
+                  </span>
+                  <span className='text-[#e88024] text-[1.02rem] nav-span absolute top-full left-0 w-full transition-all duration-300 ease-in-out transform group-hover:-translate-y-full'>
+                    {item.text}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
           </nav>
         </div>
       </div>

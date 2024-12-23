@@ -60,12 +60,12 @@ const Rules = () => {
       <section className="w-full flex flex-col items-center">
         <div className="w-[90%] px-4">
           <div className="mb-10 text-left">
-            <span className="block text-base text-gray-600 font-medium uppercase tracking-wide">
+            <span className="block text-base text-gray-500 font-medium uppercase tracking-wide">
               Official Tournament Rules
             </span>
-            <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 mt-3 leading-tight">
-              Follow these guidelines to ensure a smooth and fair tournament. The rules are designed to maintain discipline and create a safe environment.
-            </h2>
+            <h1 className="text-5xl text-[#e88024] mt-3 leading">
+            Follow rules for a fair, disciplined, and safe tournament.
+            </h1>
           </div>
 
           {rules.map((rule, index) => (
@@ -76,7 +76,7 @@ const Rules = () => {
             >
               <div className="flex items-center gap-6">
                 <span className="text-gray-500 text-2xl lg:text-3xl font-bold">{rule.id}</span>
-                <h3 className="text-lg lg:text-xl font-semibold text-gray-800">
+                <h3 className="text-lg  lg:text-2xl font-semibold text-gray-800 font-lakeshore">
                   {rule.title}
                 </h3>
               </div>
