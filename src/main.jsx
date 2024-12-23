@@ -12,9 +12,11 @@ import hotelStore from './store/store.js';
 import SmoothScrolling from './components/scroll/SmoothScrolling.jsx';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Solutions from './components/pages/Navigations/Solutions.jsx';
-import Industries from './components/pages/Navigations/Industries.jsx';
+import Solutions from './components/pages/Navigations/Rules.jsx';
+import Industries from './components/pages/Navigations/Events.jsx';
 import AboutUs from './components/pages/Navigations/AboutUs.jsx';
+import Rules from './components/pages/Navigations/Rules.jsx';
+import Events from './components/pages/Navigations/Events.jsx';
 
 AOS.init();
 
@@ -32,12 +34,12 @@ const router = createBrowserRouter([
         element: <Main />
       },
       {
-        path: "/solutions",
-        element: <Solutions />
+        path: "/rules",
+        element: <Rules />
       },
       {
-        path: "/industries",
-        element: <Industries />
+        path: "/events",
+        element: <Events />
       },
       {
         path: "/about us",

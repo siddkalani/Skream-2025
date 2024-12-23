@@ -37,7 +37,7 @@ const ImageSlider = () => {
     };
 
     return (
-        <section  className='pt-[var(--section-padding)] bg-cover bg-center bg-no-repeat'>
+        <section  className='py-[var(--section-padding)] bg-cover bg-center bg-no-repeat'>
             <div className='container-custom'>
                 <div className='flex justify-center w-full'>
                     <div className='styled-col items-center justify-center mb-[var(--section-padding)]'>

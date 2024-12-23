@@ -4,7 +4,7 @@ const ImageGallery = ({ className = "" }) => {
     return (
         <>
         <section
-            className={`self-stretch flex flex-col relative items-center justify-center py-[var(--section-padding)]`}
+            className={`self-stretch flex flex-col relative items-center justify-center py-[var(--section-padding)] mt-[var(--section-padding)]`}
             id="gallery"
         >
             <div className='border-top-ornament'>

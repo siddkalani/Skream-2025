@@ -65,7 +65,7 @@ const Header = () => {
         <div>
           <nav className='flex items-center gap-nav'>
             <ul className={`lg:flex hidden ${activeItem === 'Industries' ? 'text-black' : ''} ${scrollState.isDarkMode ? 'text-[var(--color-dark)]' : 'text-[var(--color-white)]'}`}>
-              {['Events', 'Rules', 'Sponsers', 'Contact Us'].map((item, index) => (
+              {['Home', 'Rules', 'Events', 'Contact Us'].map((item, index) => (
                 <li key={index} className='nav-a'>
                   <Link
                     to={`/${item.toLowerCase()}`} //params se karo

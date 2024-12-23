@@ -11,6 +11,8 @@ import WhyUs from '../pages/content-sections/WhyUs'
 import Report from '../pages/content-sections/Report'
 import ImageGallery from '../pages/content-sections/ImageGallery'
 import Footer from './Footer'
+import Rules from '../pages/Navigations/Rules'
+import Newsletter from '../pages/content-sections/Newsletter'
 
 
 const Main = () => {
@@ -19,13 +21,14 @@ const Main = () => {
     <div className='w-full h-full relative'>
       <HeroSection />
       <ImageSlider />
-      <Earth />
-      <DiningIntro />
+      {/* <Earth /> */}
+      {/* <DiningIntro /> */}
       {/* <ParallaxImages /> */}
-      
+      <Rules />
       <Report />
-      <WhyUs />
-      <ImageGallery/>
+      {/* <WhyUs /> */}
+      <ImageGallery />
+      <Newsletter />
       {/* <ReservationSection /> */}
     </div>
 
