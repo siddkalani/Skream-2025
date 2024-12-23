@@ -80,7 +80,7 @@ const ImageSlider = () => {
         <img
           src={image}
           alt={`Carousel Image ${index + 1}`}
-          className="w-full carousel-image"
+          className="w-full carousel-image md:h-[35rem] h-[15rem]"
         />
         <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-[#e88024] uppercase font-medium text-center py-2">
           {dummySportsData[image]}
@@ -111,9 +111,9 @@ const ImageSlider = () => {
         </div>
       </div>
       <div className="w-full relative">
-        <div className="md:flex md:flex-row flex flex-col w-full gap-[var(--container-padding)]">
+        <div className="flex flex-row w-full md:gap-[var(--container-padding)] gap-2">
           {/* Carousel 1 */}
-          <div className="wallpaper-carousel md:w-[33%] w-full overflow-hidden">
+          <div className="wallpaper-carousel md:w-[33%] w-[50%] overflow-hidden">
             <div
               className="carousel-inner flex transition-transform duration-500"
               style={{
@@ -124,7 +124,7 @@ const ImageSlider = () => {
             </div>
           </div>
           {/* Carousel 2 */}
-          <div className="wallpaper-carousel md:w-[33%] w-full overflow-hidden">
+          <div className="wallpaper-carousel md:w-[33%] overflow-hidden w-0">
             <div
               className="carousel-inner flex transition-transform duration-500"
               style={{
@@ -135,7 +135,7 @@ const ImageSlider = () => {
             </div>
           </div>
           {/* Carousel 3 */}
-          <div className="wallpaper-carousel md:w-[33%] w-full overflow-hidden">
+          <div className="wallpaper-carousel  md:w-[33%] w-[50%] overflow-hidden">
             <div
               className="carousel-inner flex transition-transform duration-500"
               style={{

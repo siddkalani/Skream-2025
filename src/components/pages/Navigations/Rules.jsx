@@ -52,7 +52,7 @@ const rules = [
 
 const Rules = () => {
   useEffect(() => {
-    AOS.init({ duration: 700, once: false });
+    AOS.init({ duration: 500, once: false });
   }, []);
 
   return (
