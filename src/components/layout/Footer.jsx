@@ -109,67 +109,66 @@ const Footer = () => {
               </div>
             </div>
           </div>
-         {/* Footer End */}
-         <div className='relative flex flex-wrap justify-between items-center w-full'>
-                        <div className="border-custom hidden sm:block"></div>
+          {/* Footer End */}
+          <div className='relative flex flex-wrap justify-between items-center w-full'>
+            <div className="border-custom hidden sm:block"></div>
 
-                        {/* Footer Credits */}
-                        <div className="footer-end flex justify-center w-full sm:w-auto">
-                            <span className="cursor-pointer text-sm flex items-center justify-center">
-                                <span className="text-sm mr-[2px] align-center">©</span>
-                                <span className="items-center mr-1">CREOAVATE 2025</span>
-                            </span>
-                        </div>
+            {/* Footer Credits */}
+            <div className="footer-end flex justify-center w-full sm:w-auto">
+              <span className="cursor-pointer text-sm flex items-center justify-center">
+                <span className="text-sm mr-[2px] align-center">©</span>
+                <span className="items-center mr-1">CREOAVATE 2025</span>
+              </span>
+            </div>
 
-                        {/* Ratings Section */}
-                        <div className="footer-end flex flex-wrap justify-center items-center w-full sm:w-auto gap-2">
-                            <span className='eyebrow small flex items-center'>Ratings</span>
-                            <div className='star-container flex'>
-                                <picture className='star-picture flex items-center gap-1'>
-                                    {Array(6).fill().map((_, index) => (
-                                        <IoStarSharp key={index} color='orange' />
-                                    ))}
-                                </picture>
-                            </div>
-                        </div>
+            {/* Ratings Section */}
+            <div className="footer-end flex justify-center items-center w-full sm:w-auto gap-2">
+              <span className="eyebrow small flex-shrink-0 mt-1">Ratings</span>
+              <div className="star-container flex items-center">
+                {Array(6).fill().map((_, index) => (
+                  <IoStarSharp key={index} className="text-orange-500" />
+                ))}
+              </div>
+            </div>
 
-                        {/* Social Media Links */}
-                        <div className="footer-end flex justify-center items-center w-full sm:w-auto gap-4">
-                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#7e6249]">
-                                <FaInstagram size={30} color='#e88024'/>
-                            </a>
-                            <a href="https://wa.me/<YOUR_WHATSAPP_NUMBER>" target="_blank" rel="noopener noreferrer" className="hover:text-[#7e6249]">
-                                <FaWhatsapp size={30} color='#e88024'/>
-                            </a>
-                            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#7e6249]">
-                                <FaLinkedin size={30} color='#e88024'/>
-                            </a>
-                        </div>
-                    </div>
+
+            {/* Social Media Links */}
+            <div className="footer-end flex justify-center items-center w-full sm:w-auto gap-4">
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#7e6249]">
+                <FaInstagram size={30} color='#e88024' />
+              </a>
+              <a href="https://wa.me/<YOUR_WHATSAPP_NUMBER>" target="_blank" rel="noopener noreferrer" className="hover:text-[#7e6249]">
+                <FaWhatsapp size={30} color='#e88024' />
+              </a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#7e6249]">
+                <FaLinkedin size={30} color='#e88024' />
+              </a>
+            </div>
+          </div>
         </div>
       </footer>
       {/* imageWithButton */}
       <section className='w-full h-full'>
-                <div className='flex-custom-center h-full w-full relative'>
-                    <Parallax
-                        strength={parallaxStrength}
-                        speed={100}
-                        bgImage="https://www.thedamai.com/media/pages/dining/5975de972d-1703335793/footer-menu-1920x480-crop-q72.jpg"
-                        bgImageAlt="Poolside table"
-                        bgImageStyle={{ objectFit: "cover" }}
-                    >
-                        <div style={{ height: '35vh' }} className='hero-image flex-custom-center'>
-                            <div className={`btn w-15 btn-svg h-[3rem] border-[0.5px] border-black bg-[#3e2b73] absolute z-10`}>
-                                <div className='btn-content gap-3'>
-                                    <img className='size-4 first-img' src="/images/symbols/footer-btn.svg" alt="" />
-                                    <span className='text-[white]'>Visit Us</span>
-                                    <img className='size-4 second-img' src="/images/symbols/footer-btn.svg" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </Parallax>
+        <div className='flex-custom-center h-full w-full relative'>
+          <Parallax
+            strength={parallaxStrength}
+            speed={100}
+            bgImage="https://www.thedamai.com/media/pages/dining/5975de972d-1703335793/footer-menu-1920x480-crop-q72.jpg"
+            bgImageAlt="Poolside table"
+            bgImageStyle={{ objectFit: "cover" }}
+          >
+            <div style={{ height: '35vh' }} className='hero-image flex-custom-center'>
+              <div className={`btn w-15 btn-svg h-[3rem] border-[0.5px] border-black bg-[#3e2b73] absolute z-10`}>
+                <div className='btn-content gap-3'>
+                  <img className='size-4 first-img' src="/images/skreamLogo.svg" alt="" />
+                  <span className='text-[white]'>Visit Us</span>
+                  <img className='size-4 second-img' src="/images/skreamLogo.svg" alt="" />
                 </div>
-            </section>
+              </div>
+            </div>
+          </Parallax>
+        </div>
+      </section>
     </>
   )
 }

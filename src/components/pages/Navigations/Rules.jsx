@@ -63,9 +63,16 @@ const Rules = () => {
             <span className="block text-base text-gray-500 font-medium uppercase tracking-wide">
               Official Tournament Rules
             </span>
+            <div className='flex items-center gap-4'>
+            <div className='text-center'>
+                <div className='ornament mt-1'>
+                  <img src="/videos/icons8-goal.gif" alt="Ornament" />
+                </div>
+              </div>
             <h1 className="text-5xl text-[#e88024] mt-3 leading">
             Follow rules for a fair, disciplined, and safe tournament.
             </h1>
+            </div>
           </div>
 
           {rules.map((rule, index) => (

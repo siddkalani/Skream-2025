@@ -401,10 +401,10 @@
 
     /* Apply the rotation on hover of the button */
     .btn:hover .second-img {
-        transform: rotate(90deg);
+        transform: rotate(360deg);
     }
     .btn:hover .first-img {
-        transform: rotate(-90deg);
+        transform: rotate(-360deg);
     }
 
     .border-bottom {

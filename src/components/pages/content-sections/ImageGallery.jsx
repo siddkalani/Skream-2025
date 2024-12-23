@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-
+import skreamLogo from '../../../../public/images/skreamLogo.svg';
 const ImageGallery = ({ className = "" }) => {
     return (
         <>
@@ -9,7 +9,7 @@ const ImageGallery = ({ className = "" }) => {
         >
             <div className='border-top-ornament'>
                 <div className="ornament">
-                    <img src="/images/symbols/KitchenSymbol.svg" alt="Kitchen Symbol" />
+                    <img src={skreamLogo} alt="Symbol" />
                 </div>
             </div>
             <div className="w-[90%] mt-[-2rem]">
