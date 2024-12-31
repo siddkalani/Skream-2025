@@ -29,7 +29,7 @@ const HeroSection = () => {
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
-                  <h1 className='font-lakeshore text-[var(--color-white)]'>
+                  <h1 className='font-lakeshore text-white md:text-[8rem] mt-[-3rem]'>
                     #ODDS<strong className='text-[#e88024]'>TO</strong>DEFY
                   </h1>
                 </div>
