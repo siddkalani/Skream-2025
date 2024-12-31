@@ -153,7 +153,7 @@ const Footer = () => {
           <Parallax
             strength={parallaxStrength}
             speed={100}
-            bgImage="https://www.thedamai.com/media/pages/dining/5975de972d-1703335793/footer-menu-1920x480-crop-q72.jpg"
+            bgImage="/images/sports/throwballp.png"
             bgImageAlt="Poolside table"
             bgImageStyle={{ objectFit: "cover" }}
           >
