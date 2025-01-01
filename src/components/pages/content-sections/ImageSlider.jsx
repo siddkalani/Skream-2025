@@ -167,7 +167,9 @@ const ImageSlider = () => {
           <span className="text-gray-300"> / {images1.length} </span>
         </div>
       </div>
+      <section id="rules"></section>
     </section>
+    
   );
 };
 

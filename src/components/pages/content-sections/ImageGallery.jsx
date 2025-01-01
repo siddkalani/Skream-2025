@@ -88,6 +88,7 @@ const ImageGallery = ({ className = "" }) => {
                     </div>
                 </div>
             </section>
+            <section id="register"></section>
         </>
     );
 };

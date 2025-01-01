@@ -80,7 +80,7 @@ const Footer = () => {
               </div>
             </div>
             {/* contacts */}
-            <div className='footer-nav flex w-full' id='contact'>
+            <div className='footer-nav flex w-full'>
               <div className="lg:border-left border-custom w-full"></div>
               <div className="flex flex-col min-w-[10em]">
                 <div className='column-title'>

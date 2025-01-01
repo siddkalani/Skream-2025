@@ -56,7 +56,7 @@ const Rules = () => {
   }, []);
 
   return (
-    <div className="w-full h-full bg-white pb-[var(--section-padding)]" id='rules'>
+    <div className="w-full h-full bg-white pb-[var(--section-padding)]" >
       <section className="w-full flex flex-col items-center">
         <div className="w-[90%] px-4">
           <div className="mb-10 text-left" >

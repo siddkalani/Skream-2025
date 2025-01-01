@@ -100,10 +100,15 @@ const Registration = () => {
                                 </div>
 
                             </div>
+                         
                         </div>
+                  
                     </Parallax>
+                  
                 </div>
+              
             </section>
+
         </>
     );
 };
