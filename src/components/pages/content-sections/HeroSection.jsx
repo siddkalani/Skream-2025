@@ -1,58 +1,61 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { Parallax } from 'react-parallax';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import tagline from '../../../../public/images/tagline.svg'
 
 const HeroSection = () => {
+  // Initialize AOS
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <section className='w-full h-full'>
-      <div className='flex-custom-center h-full w-full relative'>
-        <div className='hero-image flex-custom-center relative h-[100vh] w-[100vw]'>
-          <video
-            className="absolute inset-0 z-0 w-full h-full object-cover"
-            src="/videos/heroVideo.mp4"
-            title="Unicepta Brandfilm EU"
-            autoPlay
-            loop
-            muted
-          />
-          {/* Black opacity overlay */}
-          <div className="absolute inset-0 bg-black opacity-50 z-10" />
-          <div className='flex-custom-center w-full h-full z-20'>
-            <div className='flex-custom-col items-center justify-center hero-flex-gap'>
-              {/* <div className='flex-custom-center'>
-                <div
-                  className={`inline-block text-4xl h-[1.25rem] transition-all has-sticky-header:!text-primary text-red-600`}
-                  data-aos="fade-in" // Add AOS animation attribute
-                  data-aos-duration="2000" // Animation duration in milliseconds
-                >
-                  
-                </div>
-              </div> */}
+      <div className='flex-custom-center h-full w-full'>
+        <Parallax
+          strength={400}
+          bgImage="/images/basketballp.png"
+          bgImageAlt="Basketball court"
+          bgImageStyle={{ objectFit: 'cover' }}
+        >
+          <div style={{ height: '100vh' }} className='hero-image flex-custom-center inset-0 bg-black opacity-55'>
+            <div className='flex-custom-center w-full h-full'>
+              <div className='flex-custom-col items-center justify-center hero-flex-gap'>
+               
 
-              <div className=' flex-custom-center text-center'>
-                <h1
-                  className='hero-h1 mt-[-0.175em] mb-[-0.25em] text-[var(--color-white)]'
-                  data-aos="fade-up" // Add AOS animation attribute
-                  data-aos-duration="1000" // Animation duration in milliseconds
+                {/* Hero Title */}
+                <div
+                  className='hero-title flex-custom-center text-center z-[100]'
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
                 >
-                  {/* Delivering Quality <br /> Solutions Every Time */}
-                  <img
-                    src={tagline}
-                    alt="Logo"
-                    className={`h-full w-full transition-all `}
-                  />
-                </h1>
+                  <h1 className='font-lakeshore text-white md:text-[8rem] mt-[-3rem]'>
+                    #ODDS<strong className='text-[#e88024]'>TO</strong>DEFY
+                  </h1>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </Parallax>
       </div>
 
-      {/* footer img */}
-
+      {/* Footer Image */}
+      <div className='w-full h-full flex-custom-center hero-margin md:hero-margin-large'>
+        <picture
+          className='card-width md:card-width-large h-full'
+          data-aos="fade-in"
+          data-aos-duration="1500"
+        >
+          <img
+            alt="Athlete preparing for a challenge"
+            data-parallax-target=""
+            className="relative z-[1]"
+            src="/images/sports/ath200.png"
+          />
+        </picture>
+      </div>
     </section>
   );
-}
+};
 
 export default HeroSection;

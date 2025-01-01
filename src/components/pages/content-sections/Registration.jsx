@@ -26,7 +26,7 @@ const Registration = () => {
                     {/* Parallax Section */}
                     <Parallax
                         strength={parallaxStrength}
-                        bgImage="/jewellery/newsLetter/News.png"
+                        bgImage="/images/sports/volleyballp.png"
                         bgImageAlt="Background"
                         bgImageStyle={{ objectFit: "cover" }}
                     >
@@ -34,7 +34,7 @@ const Registration = () => {
                         <div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
 
                         {/* Content */}
-                        <div className='hero-image relative z-20 flex items-center justify-center md:h-[60vh] h-[80vh]' id='register'>
+                        <div className='hero-image relative z-20 flex items-center justify-center md:h-[70vh] h-[80vh]'>
                             <div className='w-full flex flex-col items-center justify-center h-full p-4 md:p-5 md:ml-10'>
                                 {/* Registration and Payment Section */}
                                 <div className="flex flex-wrap md:flex-nowrap justify-center items-start gap-8 w-full text-white">

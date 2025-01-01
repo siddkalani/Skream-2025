@@ -54,27 +54,27 @@ const ImageGallery = ({ className = "" }) => {
                             <img
                                 className="w-full h-full max-w-full overflow-hidden object-cover min-h-[38rem]"
                                 alt=""
-                                src="/jewellery/gallery/gallery1.png"
+                                src="/images/sports/cover.png"
                             />
                             <div className="flex flex-col items-start justify-start gap-2 max-w-full">
                                 <img
                                     className="w-full h-[20rem] max-w-full overflow-hidden object-cover"
                                     loading="lazy"
                                     alt=""
-                                    src="/jewellery/gallery/gallery.png"
+                                    src="/images/sports/cover.png"
                                 />
                                 <div className="flex flex-row items-start justify-start gap-2 sm:flex-wrap">
                                     <img
                                         className="flex-1 min-w-[8rem] min-h-[19rem] max-w-full overflow-hidden object-cover"
                                         loading="lazy"
                                         alt=""
-                                        src="/jewellery/gallery/gallery3.png"
+                                        src="/images/sports/cover.png"
                                     />
                                     <img
                                         className="flex-1 min-w-[8rem] min-h-[19rem] max-w-full overflow-hidden object-cover"
                                         loading="lazy"
                                         alt=""
-                                        src="/jewellery/gallery/gallery4.png"
+                                        src="/images/sports/cover.png"
                                     />
                                 </div>
                             </div>
@@ -82,7 +82,7 @@ const ImageGallery = ({ className = "" }) => {
                                 className="w-full h-full max-w-full overflow-hidden object-cover min-h-[38rem]"
                                 loading="lazy"
                                 alt=""
-                                src="/jewellery/gallery/gallery2.png"
+                                src="/images/sports/cover.png"
                             />
                         </div>
                     </div>
