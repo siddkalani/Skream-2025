@@ -90,8 +90,8 @@ const ImageSlider = () => {
   };
 
   return (
-    <section className="pt-[3rem] pb-[var(--section-padding)] bg-cover bg-center bg-no-repeat">
-      <div className="container-custom">
+    <section className="pt-[3rem] pb-[var(--section-padding)] bg-cover bg-center bg-no-repeat" id="events">
+      <div className="container-custom" >
         <div className="flex justify-center w-full">
           <div className="styled-col items-center justify-center mb-[3rem]">
             <div className="text-center">

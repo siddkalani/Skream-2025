@@ -36,10 +36,10 @@ const Footer = () => {
                 <span className='eyebrow text-[0.8rem]'>Menu</span>
               </div>
               <ul className='menu-list'>
-                {[{ text: 'Featured', href: '#featured' },
-                { text: 'Category', href: '#category' },
-                { text: 'About Us', href: '#about-us' },
-                { text: 'Gallery', href: '#gallery' }].map((item, index) => (
+                {[{ text: 'Events', href: '#events' },
+                { text: 'Rules', href: '#rules' },
+                { text: 'Register', href: '#register' },
+                { text: 'Contact', href: '#contact' }].map((item, index) => (
                   <li className='menu-item' key={index}>
                     <a href={item.href} className='text-[#38220f] menu-link hover-circle'>
                       <span className='side-nav-link font-cormo font-medium'>{item.text}</span>
@@ -53,9 +53,9 @@ const Footer = () => {
               <div className="lg:border-left border-custom"></div>
 
               <div className="flex flex-col min-w-[10em]">
-                <div className='column-title'><span className='eyebrow text-[0.8rem]'>Links</span></div>
+                <div className='column-title'><span className='eyebrow text-[0.8rem]'>Indoor Games</span></div>
                 <ul className='short-links-list'>
-                  {["E-commerce", "Landing page", "Jewellers"].map((item, index) => (
+                  {["Badminton", "Table Tennis", "Carrom", "Chess", "Squash"].map((item, index) => (
                     <li className='short-link-item' key={index}>
                       <a className='short-link font-karla' href="#">
                         <span className='text-[1.02rem] hover-underline'>{item}</span>
@@ -66,9 +66,9 @@ const Footer = () => {
               </div>
               <div className='flex flex-col'>
                 <div className='short-links-column'>
-                  <div className='column-title'><span className='eyebrow text-[0.8rem]'>Other</span></div>
+                  <div className='column-title'><span className='eyebrow text-[0.8rem]'>Outdoor Games</span></div>
                   <ul className='short-links-list'>
-                    {["Copyrights", "Privacy Policy", "T&C"].map((item, index) => (
+                    {["Football", "Rink football", "Cricket", "Box Cricket", "Lawn Tennis", "Volleyball", "Basketball", "Athletics", "Shotput", "Relay", "Throwball", "Swimming"].map((item, index) => (
                       <li className='short-link-item' key={index}>
                         <a className='short-link  font-karla' href="#">
                           <span className='hover-underline'>{item}</span>
@@ -80,7 +80,7 @@ const Footer = () => {
               </div>
             </div>
             {/* contacts */}
-            <div className='footer-nav flex w-full'>
+            <div className='footer-nav flex w-full' id='contact'>
               <div className="lg:border-left border-custom w-full"></div>
               <div className="flex flex-col min-w-[10em]">
                 <div className='column-title'>
@@ -88,7 +88,7 @@ const Footer = () => {
                 </div>
                 <div className='flex flex-col gap-[1.5em]'>
                   <ul className='short-links-list'>
-                    {["1001, Marol, Emperial heights", "Mumbai, Maharshtra"].map((item, index) => (
+                    {["Aditya Sawant (Sports Scretary)"].map((item, index) => (
                       <li className='short-link-item' key={index}>
                         <a className='short-link  font-karla' href="">
                           <span className='hover-underline'>{item}</span>
@@ -97,7 +97,7 @@ const Footer = () => {
                     ))}
                   </ul>
                   <ul className='short-links-list'>
-                    {["T: +91 9004363230", "E: kaaayjewellery@gmail.com"].map((item, index) => (
+                    {["T: +91 9004363230", "E: aditya.sawant@somaiya.edu"].map((item, index) => (
                       <li className='short-link-item' key={index}>
                         <a className='short-link  font-karla' href="">
                           <span className='hover-underline'>{item}</span>
@@ -105,6 +105,24 @@ const Footer = () => {
                       </li>
                     ))}
                   </ul>
+                </div> <br />
+                <div className='column-title'>
+                  <span className='eyebrow text-[0.8rem]'>Reach Us</span>
+                </div>
+                <div className='flex flex-col gap-[1.5em]'>
+                  <ul className='short-links-list'>
+                    {["K.J. Somaiya College Of Engineeing"].map((item, index) => (
+                      <li className='short-link-item' key={index}>
+                        <a className='short-link  font-karla' href="">
+                          {/* <span className='hover-underline'>{item}</span> */}
+                          <span className="hover-underline"> K.J. Somaiya College Of Engineeing
+        <br />Vidyavihar East <br/> Mumbai, Maharashtra 400077
+      </span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                 
                 </div>
               </div>
             </div>

@@ -56,11 +56,11 @@ const Rules = () => {
   }, []);
 
   return (
-    <div className="w-full h-full bg-white pb-[var(--section-padding)]">
+    <div className="w-full h-full bg-white pb-[var(--section-padding)]" id='rules'>
       <section className="w-full flex flex-col items-center">
         <div className="w-[90%] px-4">
-          <div className="mb-10 text-left">
-            <span className="block text-base text-gray-500 font-medium uppercase tracking-wide">
+          <div className="mb-10 text-left" >
+            <span   className="block text-base text-gray-500 font-medium uppercase tracking-wide">
               Official Tournament Rules
             </span>
             <div className='flex items-center gap-4'>

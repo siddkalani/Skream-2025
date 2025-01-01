@@ -72,10 +72,10 @@ const Header = () => {
           <nav className='flex items-center gap-nav'>
             <ul className={`lg:flex hidden ${scrollState.isDarkMode ? 'text-[var(--color-dark)]' : 'text-[var(--color-white)]'}`}>
               {[
-                { text: 'Events', href: '#featured' },
-                { text: 'Rules', href: '#category' },
-                { text: 'Register', href: '#about-us' },
-                { text: 'Contact', href: '#gallery' },
+                { text: 'Events', href: '#events' },
+                { text: 'Rules', href: '#rules' },
+                { text: 'Register', href: '#register' },
+                { text: 'Contact', href: '#contact' },
               ].map((item, index) => (
                 <li key={index} className='nav-a'>
                   <a href={item.href} className='flex-custom-center relative overflow-hidden group font-karla'>

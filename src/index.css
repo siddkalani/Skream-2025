@@ -945,9 +945,9 @@ figure {
 
 @font-face {
     font-family: 'Lakeshore';
-    src: url('/fonts/Lakeshore/lakeshore-regular.ttf') format('truetype'); /* Use opentype instead of otf */
+    src: url('../public/fonts/Lakeshore/lakeshore-regular.ttf') format('truetype'); /* Use opentype instead of otf */
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-  }
+}
   
