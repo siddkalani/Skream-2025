@@ -115,8 +115,8 @@ const Footer = () => {
                       <li className='short-link-item' key={index}>
                         <a className='short-link  font-karla' href="">
                           {/* <span className='hover-underline'>{item}</span> */}
-                          <span className="hover-underline"> K.J. Somaiya College Of Engineeing
-        <br />Vidyavihar East <br/> Mumbai, Maharashtra 400077
+                          <span className="hover-underline"> K.J. Somaiya College Of Engineeing,
+                          <br/>  <br />Vidyavihar East, <br/> <br/>Mumbai, Maharashtra 400077.
       </span>
                         </a>
                       </li>
