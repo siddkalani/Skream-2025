@@ -76,7 +76,7 @@ const Registration = () => {
                                 {/* Buttons Section */}
                                 <div className="mt-8 flex flex-wrap justify-center gap-4">
                                     <a
-                                        href="/path-to-payment-link"
+                                        href="https://tr.ee/9gClJ6ynJe"
                                         className="relative px-7 py-3 text-[1rem] text-white font-medium bg-[#3e2b73] border-brown-600 hover:bg-[#4e3690] focus:outline-none rounded-full overflow-hidden group transition-all duration-300 ease-in-out"
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -87,12 +87,23 @@ const Registration = () => {
                                         </span>
                                     </a>
                                     <a
-                                        href="/path-to-brochure-link"
+                                        href="https://tr.ee/AK8FBfvwmU"
                                         className="relative px-7 py-3 text-[1rem] text-[white] font-medium bg-[#3e2b73] border-brown-600 hover:bg-[#4e3690] focus:outline-none rounded-full overflow-hidden group transition-all duration-300 ease-in-out"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                        <span> Brochure</span>
+                                        <span className="absolute font-bold inset-y-0 right-5 flex items-center opacity-0 group-hover:opacity-100 group-hover:translate-x-2 transition-transform duration-300 ease-in-out">
+                                            →
+                                        </span>
+                                    </a>
+                                    <a
+                                        href="https://tr.ee/JhAUNBSXqR"
+                                        className="relative px-7 py-3 text-[1rem] text-[white] font-medium bg-[#3e2b73] border-brown-600 hover:bg-[#4e3690] focus:outline-none rounded-full overflow-hidden group transition-all duration-300 ease-in-out"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                       <span> Registration</span>
                                         <span className="absolute font-bold inset-y-0 right-5 flex items-center opacity-0 group-hover:opacity-100 group-hover:translate-x-2 transition-transform duration-300 ease-in-out">
                                             →
                                         </span>

@@ -92,7 +92,7 @@ const Header = () => {
           </nav>
         </div>
       </div>
-      <div className={`${scrollState.isDarkMode ? 'bg-[var(--color-border)] border-bottom' : 'border-bottom'}`}></div>
+      {/* <div className={`${scrollState.isDarkMode ? 'bg-[var(--color-border)] border-bottom' : 'border-bottom'}`}></div> */}
     </header >
   )
 }
