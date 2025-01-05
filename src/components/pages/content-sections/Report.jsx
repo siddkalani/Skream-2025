@@ -11,7 +11,7 @@ const Report = () => {
                             About KJSCE
                         </h2>
                         <p className="text-base md:text-xl text-white">
-                            K.J. Somaiya College of Engineering is located in the Somaiya Vidyanagari campus, Vidyavihar. Catering to about 40,000 students every day, this campus offers diverse fields of education such as Engineering, Management, Commerce, Arts, and Sciences along with actively promoting sports. Somaiya Vidyavihar boasts a 65-acre campus with sprawling grounds for various sports. Being granted Autonomous status from the academic year 2014-15, K.J. Somaiya College of Engineering also enjoys the status of being graded 'A' by the NAAC (National Assessment and Accreditation Council) in 2017.
+                            K.J. Somaiya College of Engineering is located in the Somaiya Vidyanagari campus, Vidyavihar. Catering to about 40,000 students every day, this campus offers diverse fields of education such as Engineering, Management, Commerce, Arts, and Sciences along with actively promoting sports. Somaiya Vidyavihar boasts a 50-acre campus with sprawling grounds for various sports. Being granted Autonomous status from the academic year 2014-15, K.J. Somaiya College of Engineering also enjoys the status of being graded 'A' by the NAAC (National Assessment and Accreditation Council) in 2017.
                         </p>
                     </div>
                 </div>
