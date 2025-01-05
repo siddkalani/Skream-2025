@@ -43,7 +43,7 @@ const HeroSection = () => {
               <div className='flex-custom-col items-center justify-center hero-flex-gap'>
                 {/* Hero Title */}
                 <div
-                  className='hero-title flex-custom-center text-center z-[100]'
+                  className='hero-title flex-custom-center text-center'
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
