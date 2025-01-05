@@ -58,7 +58,7 @@ const Footer = () => {
             {/* ShortLinks */}
             <div className="footer-nav flex w-full">
               <div className="lg:border-left border-custom"></div>
-
+                <div className="flex md:flex-row flex-col">
               <div className="flex flex-col min-w-[10em]">
                 <div className="column-title">
                   <span className="eyebrow text-[0.8rem]">Sports</span>
@@ -91,7 +91,7 @@ const Footer = () => {
                   ))}
                 </ul>
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col mt-10 md:mt-0">
                 <div className="short-links-column">
                   <div className="column-title">
                     <span className="eyebrow text-[0.8rem]">More Sports</span>
@@ -117,11 +117,12 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
+              </div>
             </div>
             {/* contacts */}
             <div className="footer-nav flex w-full">
               <div className="lg:border-left border-custom w-full"></div>
-              <div className="flex flex-col min-w-[10em] space-y-4">
+              <div className="flex flex-col md:min-w-[10em] space-y-4">
                 <div className="column-title">
                   <span className="eyebrow text-[0.8rem]">Contacts</span>
                 </div>
@@ -136,7 +137,7 @@ const Footer = () => {
                     ))}
                   </ul>
                   <ul className="short-links-list">
-                    {["T: +918928673169, +918888677777", "E: soham.idekar@somaiya.edu, mukul.c@somaiya.edu"].map(
+                    {["T: +918928673169, +918888677777", "E: soham.idekar@somaiya.edu"].map(
                       (item, index) => (
                         <li className="short-link-item" key={index}>
                           <a className="short-link  font-karla" href="">

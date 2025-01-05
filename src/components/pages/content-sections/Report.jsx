@@ -4,7 +4,7 @@ const Report = () => {
     return (
         <div className="h-full w-full flex flex-col items-center justify-center bg-black">
             {/* Section 1: Left Content, Right Image */}
-            <div className="w-[90%] h-auto flex flex-col items-center md:flex-row md:h-[70vh]">
+            <div className="w-[90%] h-auto flex flex-col items-center md:flex-row md:h-[80vh]">
                 <div className="flex-1 flex flex-col p-4">
                     <div className="mt-auto mb-auto text-white space-y-6 text-center md:text-left">
                         <h2 className="text-[4rem] md:text-[6rem] text-[#e88024] font-lakeshore">
