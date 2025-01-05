@@ -64,11 +64,11 @@ const Registration = () => {
                                         <p className='text-[1rem] md:text-[1.3rem] text-[var(--color-white)] font-karla mt-6 font-medium'>
                                             Pay offline at the college or online via Credit/Debit Cards, Net Banking, or PayTM.
                                             <br />
-                                            For PayTM, use number: <u>7506945555</u>.
+                                            For PayTM, use number: <u>8888677777</u>.
                                             <br />
                                             Send payment proof to the link or contact:
                                             <br />
-                                            <strong className='text-white'>Aditya: +91 9987082229</strong>
+                                            <strong className='text-white'>Mukul: +91 8888677777</strong>
                                         </p>
                                     </div>
                                 </div>

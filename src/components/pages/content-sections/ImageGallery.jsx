@@ -3,26 +3,25 @@ import PropTypes from "prop-types";
 import skreamLogo from "../../../../public/images/skreamLogo.svg";
 
 const sponsors = [
+  { src: "/images/sponsors/breathe.jpg", title: "Co-Sponsor" },
+  { src: "/images/sponsors/Nivia.png", title: "Associate Partner" },
+  { src: "/images/sponsors/protien.png", title: "Powered By" },
+  { src: "/images/sponsors/surf.jpg", title: "Assistant Partner" },
+  { src: "/images/sponsors/newLogo.png", title: "Website Partner" },
   { src: "/images/sponsors/grinf.png", title: "Caffieine Partner" },
   { src: "/images/sponsors/apollo.jpeg", title: "Medical Partner" },
   { src: "/images/sponsors/omkar.png", title: "Snacking Partner" },
-  { src: "/images/sponsors/Nivia.png", title: "Associate Partner" },
   { src: "/images/sponsors/anu.svg", title: "Health Partner" },
   { src: "/images/sponsors/tennex.webp", title: "Turf cricket partner" },
   { src: "/images/sponsors/para.png", title: "Chess Partner" },
   { src: "/images/sponsors/triump.png", title: "Bike Partner" },
-  { src: "/images/sponsors/protien.png", title: "Powered By" },
   { src: "/images/sponsors/nb.png", title: "Online Media Partner" },
-  { src: "/images/sponsors/newLogo.png", title: "Website Partner" },
   { src: "/images/sponsors/ocean.jpg", title: "Beverage Partner" },
   { src: "/images/sponsors/BMW.png", title: "Driven By Partner" },
-  { src: "/images/sponsors/breathe.jpg", title: "Co-Sponsor" },
-  { src: "/images/sponsors/surf.jpg", title: "Assistant Partner" },
   { src: "/images/sponsors/Precise.png", title: "Table tennis Partner" },
   { src: "/images/sponsors/milk.png", title: "Milkshake Partner" },
   { src: "/images/sponsors/raja.png", title: "Stationary Partner" },
 ];
-
 const ImageGallery = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const sponsorsPerSlide = 6;

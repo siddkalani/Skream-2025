@@ -201,7 +201,7 @@ const Footer = () => {
             {/* Social Media Links */}
             <div className="footer-end flex justify-center items-center w-full sm:w-auto gap-4">
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/creaovate/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[#7e6249]"
@@ -209,7 +209,7 @@ const Footer = () => {
                 <FaInstagram size={30} color="#e88024" />
               </a>
               <a
-                href="https://wa.me/<YOUR_WHATSAPP_NUMBER>"
+                href="https://wa.me/+918238592699"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[#7e6249]"
@@ -251,7 +251,14 @@ const Footer = () => {
                     src="/images/skreamLogo.svg"
                     alt=""
                   />
-                  <span className="text-[white]">Visit Us</span>
+                  <a
+                      href="https://portfoliobysidd.netlify.app/"
+                      className=" text-white text-[0.8rem] rounded-lg shadow-md transition-all duration-300"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      VISIT US
+                    </a>
                   <img
                     className="size-4 second-img"
                     src="/images/skreamLogo.svg"
