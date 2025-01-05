@@ -54,7 +54,7 @@ const Registration = () => {
                       at the college.
                       <br />
                       <strong className="text-white">
-                        Deadline: 20th February 2023
+                        Deadline: 5th February 2023
                       </strong>
                     </p>
                   </div>
